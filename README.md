@@ -46,6 +46,9 @@ Other observations
 - euribor3m (Euribor 3 Month Rate): The distribution is concentrated at higher rates (around 4-5). Subscriptions are noticeably higher when the euribor3m rate is lower (around 1).
 - nr.employed (Number of Employees): This has distinct clusters. Subscriptions seem to be somewhat higher when the number of employees is lower (around 5000-5100).
 
+## Euro Interbank offered rate (Euribor3) finding 
+- Results show customers subscribing to term deposits are higher when the euribor3 rates are lower. Euro Interbank offered rate for three month maturity (euribor3) should be high for longer term. More customers to sign up for term deposits as they get better rates. Requires further analysis
+
 ##  Compare Age Column with Target Variable “y” subscription
 - Median Age: The median age of those who subscribed ("yes") appears to be slightly higher than those who did not subscribe ("no").
 - Age Distribution: The age distribution is fairly similar between the two groups, however, there are outliers.
@@ -94,6 +97,7 @@ Other observations
 - Basic.4y, Basic.6y, Basic.9y: These education levels have relatively lower "yes" subscription rates.
 - University.degree: Shows a higher proportion of "yes" subscriptions compared to those with basic education.
 - Actionable Insight: Explore whether more detailed education-specific messaging would be beneficial. Those with university degrees may respond to different arguments than those with only basic education
+  #### The education column, being categorical, may need transformation for analysis or modeling. If it has a meaningful order, ordinal encoding can be used (e.g., assigning increasing values from 'illiterate' to 'university.degree'), while one-hot encoding is preferable if order doesn’t matter. The 'unknown' category should be handled by either dropping rare cases or replacing them with the mode. Additionally, grouping all "basic" education levels into a single category (e.g., "basic.education") can simplify analysis. The choice of encoding depends on the model and business needs. All other categorical columns look good and doesnt need any transformation
 ### default vs “y” subscription:
 - No (No credit in default): The vast majority fall into this category, and the "yes" subscription rate is relatively low.
 - Yes (Has credit in default): This very small group appears to have slightly higher subscription rates, however this is likely due to the small sample size.
