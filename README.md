@@ -175,8 +175,8 @@ https://github.com/harishlv777/Practical-App-3-Banking-CompClassifiers/blob/main
 ## Files
 - Practical-App-3-Banking-CompClassifiers_hlaxmina.jpynb - Jupyter notebook
 - data/bank-additional-full.csv - Banking dataset
-- plots/PA3-Plots_Practical-Application-3_ComparingClassifiers-BankingData.pdf - plots supporting the analysis
-- readings - crisp-dm-overview and crisp-dm-manual
+- plots/PA3-Plots_Practical-Application-3_Comparing Classifiers-Banking Data.pdf - plots supporting the analysis
+- readings - CRISP-DM-BANK.pdf CRISP-DM methodology document
 - readme.md - current file
 
 ## Requirements
