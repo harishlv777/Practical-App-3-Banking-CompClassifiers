@@ -181,6 +181,9 @@ https://github.com/harishlv777/Practical-App-3-Banking-CompClassifiers/blob/main
 
 ## Requirements
 Python 3.x, pandas, numby, matplotlib, seaborn, scikit-learn
+Note - plot_helpers is required to render_plot
+Run pip list | grep plot_helpers to check if plot_helpers exists.
+If missing, either install it or replace render_plot with Matplotlib/Seaborn functions
 
 ## How to execute
 Clone the repository, build the environment with required packages, followed by Jypyter notebook execution.
