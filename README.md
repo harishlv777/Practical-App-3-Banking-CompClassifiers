@@ -170,7 +170,7 @@ Based on the analysis of ROC curves and AUC scores, Model Performance Assessment
 - Monitoring: Continuously monitor the performance of the model in a production environment and retrain it periodically with new data to maintain its accuracy and relevance.
 
 ## Plots
-https://github.com/harishlv777/Practical-App-3-Banking-CompClassifiers/blob/main/plots/PA3-Plots_Practical-Application-3_ComparingClassifiers-BankingData.pdf
+https://github.com/harishlv777/Practical-App-3-Banking-CompClassifiers/blob/main/plots/PA3-Plots_Practical-Application-3_Comparing%20Classifiers-Banking%20Data.pdf
 
 ## Files
 - Practical-App-3-Banking-CompClassifiers_hlaxmina.jpynb - Jupyter notebook
